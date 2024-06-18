@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: left; /* Centraliza horizontalmente */
+  align-items: flex-start; /* Posiciona os itens no topo do contêiner */
+  height: 100%;
+  background-color: #f0f0f0;
+  padding-top: 70px; /* Espaço extra acima do conteúdo */
+  padding-left: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.texto {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 16px;
+  color: #000;
+  margin-top: 9px;
+  padding-left: 55px;
+}
+
+
+
+  
