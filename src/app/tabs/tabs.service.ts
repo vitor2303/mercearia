@@ -1,4 +1,3 @@
-// src/app/services/tabs.service.ts
 import { Injectable } from '@angular/core';
 
 @Injectable({

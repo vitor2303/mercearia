@@ -1,4 +1,3 @@
-// src/app/tabs/tabs.page.ts
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { TabsService } from '../tabs/tabs.service';
@@ -18,7 +17,7 @@ export class TabsPage implements OnInit {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         const url = event.urlAfterRedirects;
-        this.hideTabs = url === '/tabs/home';
+        this.hideTabs = !(url.includes('/tabs/compras') || url.includes('/tabs/pesquisa') || url.includes('/tabs/carrinho'));
         this.tabsService.setHideTabs(this.hideTabs);
       }
     });

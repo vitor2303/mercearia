@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  justify-content: left; /* Centraliza horizontalmente */
+  justify-content: space-between; /* Distribui os itens uniformemente com espaço entre eles */
   align-items: flex-start; /* Posiciona os itens no topo do contêiner */
   height: 100%;
   background-color: #f0f0f0;
@@ -17,10 +17,42 @@ img {
   font-family: 'Montserrat', sans-serif !important;
   font-size: 16px;
   color: #000;
-  margin-top: 9px;
-  padding-left: 55px;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.bem-vindo {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 16px;
+  color: #000;
+  margin-right: auto; /* Move a imagem1 para a direita */
+  margin-left: -20px; /* Mesma distância em relação à borda do contêiner */
+  margin-top: 50px;
 }
 
 
+.mensagem {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 16px;
+  font-weight: bold; /* Deixa o texto em negrito */
+  color: #000;
+  margin-right: auto;
+  margin-top: 5px; /* Espaço entre os textos */
+  margin-left: -30px; /* Remove o espaçamento à esquerda */
+}
 
-  
+.itens-frescos {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 16px;
+  color: #000;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.imagem1 {
+  max-width: 50px; /* Exemplo de largura máxima */
+  height: auto; /* Altura automática para manter a proporção */
+  margin-left: auto; /* Move a imagem1 para a direita */
+  margin-right: 40px; /* Mesma distância em relação à borda do contêiner */
+  margin-top: -3px;
+}
